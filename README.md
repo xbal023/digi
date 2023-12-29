@@ -11,13 +11,15 @@ npm install @bolaxdd/digi
 ## Usage
 
 ```js
+import { DigiBuyer } from "@bolaxdd/digi";
 // Only ESM
 // unsupported EJS 
-import { DigiBuyer } from "../lib/index.js";
 
-const digi = new DigiBuyer({ apikey: "abc", username: "absd" });
+const apikey = 'abcd',
+    username = 'abcd123'
+const digi = new DigiBuyer({ apikey, username });
 // Anda bisa menggunakan seperti ini
-// const digi = new DigiBuyer("abc", "absd");
+// const digi = new DigiBuyer(apikey, username);
 (async function () {
   // const sign = digi.__sign("tess");
   // console.log(sign);
