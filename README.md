@@ -11,6 +11,8 @@ npm install @bolaxdd/digi
 ## Usage
 
 ```js
+// Only ESM
+// unsupported EJS 
 import { DigiBuyer } from "../lib/index.js";
 
 const digi = new DigiBuyer({ apikey: "abc", username: "absd" });
