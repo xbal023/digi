@@ -1,0 +1,17 @@
+{
+  "name": "@bolaxdd/digi",
+  "version": "0.0.1",
+  "description": "digiflaz website top up",
+  "main": "./lib/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bolaxd",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-md5": "^2.19.0",
+    "undici": "^6.2.1"
+  }
+}
